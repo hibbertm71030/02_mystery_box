@@ -90,6 +90,7 @@ class Start:
         self.low_stakes_button.config(state=DISABLED)
         self.medium_stakes_button.config(state=DISABLED)
         self.high_stakes_button.config(state=DISABLED)
+        
 
         try:
             starting_balance = int(starting_balance)
